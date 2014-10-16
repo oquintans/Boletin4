@@ -18,7 +18,10 @@ public class Consumo {
         km=a;
         vMed=b;
         return a/b;        
-    }    
+    }
+    public double getVmed () {
+        return vMed;
+    }
     public double consumoMedio(double kilo,double litro){
         km=kilo;
         litros=litro;

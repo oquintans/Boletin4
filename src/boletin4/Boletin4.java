@@ -24,7 +24,7 @@ public class Boletin4 {
         Consumo obj2=new Consumo(100,50,50,2);       
         System.out.println("Consumo= "+ obj2.consumoMedio(100,50));
         obj2.setLitros(20);
-        System.out.println("Velocidad Media= ");
+        System.out.println("Velocidad Media= "+ obj2.getVmed());
               
     }
       
